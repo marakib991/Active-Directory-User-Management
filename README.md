@@ -1,4 +1,4 @@
-# 🖥️ Active Directory Homelab Project
+# 🖥️ Active Directory User Management
 
 This repository documents my homelab project, where I set up a Windows Server 2016 domain controller and a Windows 10 Enterprise client using VirtualBox. The goal was to simulate real-world IT helpdesk tasks, including domain setup, user management, group policy configuration, and software deployment.
 
