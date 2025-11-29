@@ -33,22 +33,28 @@ This repository documents my homelab project, where I set up a Windows Server 20
 - Configured both VMs with bridge networking.
 
 **Setting up Windows Server 2016**
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/fc9a8d96-9379-4365-abf3-6f1747621e1a" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/8797a069-3139-4bc8-a62c-8e5f47a25ccb" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/e90fd125-9f5e-4ab9-a289-acd2d4bc6f0b" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/efa4e925-9373-4cbf-875e-c5064170fad8" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/20fa8607-7bac-4aa5-b7f8-cba46a417c1d" />
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/be2b9294-189c-4531-b2be-58b3219d590d" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/4e2d8c50-b52a-47c4-a021-5dcf26bfee9d" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/0a551aee-9326-4f69-8443-519076c88394" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/85b25145-691b-47f2-8a59-5cf2b21ee394" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/3215c8f8-80d1-4997-9e79-8421eaf7e4bb" />
 
 **Setting up Windows 10 Enterprise**
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/36cd58ec-20db-45b3-ba60-4285b4d49c7d" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/f066fb30-02c9-4266-ac73-f1a7daf46594" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/c3f92abc-2e34-4d09-85b2-c3cdb1a1fa04" />
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/27d23c2a-756b-4c54-8ab3-c0a489561b18" />
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/e525cf99-0f67-4fb6-b0be-16a11804f70c" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/593e3cf5-0bfc-45f9-b0be-72f64a452fc7" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/ab1f9935-6fec-427c-9221-fceb933cf1aa" />
+
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/f1d142a9-8a96-4d5f-a539-6066c01008fe" />
 
 **Configure both VMs with bridge networking**
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/22b4b5f8-059b-42da-b530-626346125ea0" />
-
-<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/616b913d-e83e-46f9-b51e-e37fa3e33f19" />
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/4f035d8f-5fb6-4667-af48-c6dae084e3fe" />
+<img width="2132" height="1242" alt="Image" src="https://github.com/user-attachments/assets/8cf0475e-a3ef-4a6e-9e28-35450c944233" />
 
 ---
 
