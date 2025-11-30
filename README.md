@@ -71,7 +71,7 @@ After the initial windows installation was done, domain joined to create a admin
 <img width="1018" height="805" alt="Image" src="https://github.com/user-attachments/assets/18ccc02e-1cf1-49b9-8a34-b9ca9c664f09" />
 <img width="1023" height="799" alt="Image" src="https://github.com/user-attachments/assets/5241fa31-996d-4847-8387-1baad87b3fd1" />
 <img width="1019" height="783" alt="Image" src="https://github.com/user-attachments/assets/14bde080-3fbf-4d80-861d-42f924910c45" />
-<img width="2138" height="1244" alt="Image" src="https://github.com/user-attachments/assets/8a6a78f8-68b9-40a7-8bc6-a9f3e61c2aa0" />
+<img width="1000" height="804" alt="Image" src="https://github.com/user-attachments/assets/787c21ee-9611-4814-8043-0bc649097d68" />
 
 ---
 
