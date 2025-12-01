@@ -128,7 +128,7 @@ Using **Command Prompt**, run `ipconfig` to find out the server's IPv4 address t
 
 ---
 
-### 4. Client Domain Join
+### 4. Client Joining the Active Directory Domain Controller
 #### Rename PC
 Renamed Windows 10 client to **HELPDESK**.
 <img width="1090" height="935" alt="Image" src="https://github.com/user-attachments/assets/9b6b078d-b15a-4ecd-b156-e68f5897f2b9" />
@@ -150,13 +150,23 @@ Joined the client to the **rakib.org** domain using `user1`.
 <img width="868" height="780" alt="Image" src="https://github.com/user-attachments/assets/cce8380e-33bb-4a19-b44b-be50e72add5e" />
 <img width="955" height="795" alt="Image" src="https://github.com/user-attachments/assets/7e784ae2-9dcb-4212-b65a-9b102b2c54c8" />
 
+#### Turn off firewall
+For to avoid connection issues of packet loss or network restriction between the client pc to the domain, firewall is temporarily turned off on the client machine.
+<img width="1205" height="1106" alt="Image" src="https://github.com/user-attachments/assets/39a29897-5dc0-47af-837c-75ebfeb190a2" />
+<img width="1291" height="1096" alt="Image" src="https://github.com/user-attachments/assets/d2007476-9c65-43cb-99b9-5bd570f9fef1" />
+<img width="981" height="1029" alt="Image" src="https://github.com/user-attachments/assets/f655d95f-1764-424e-a848-9bb3f9e5207d" />
+<img width="1152" height="971" alt="Image" src="https://github.com/user-attachments/assets/9580a1a4-1c94-41c6-be01-d0fbedc7003a" />
+<img width="1161" height="983" alt="Image" src="https://github.com/user-attachments/assets/ef641c31-464c-41c7-9c77-cd50c62095b4" />
+
 #### Varify the Connection between Client PC and the Domain Server
 Verified domain membership with:
   - `whoami /fqdn`
   - `ping` between server and client
-
-
-📸 *Screenshot Placeholder: Windows 10 domain join confirmation*  
+First checked if helpdesk is connected to **DC** machine or **Server**
+<img width="1024" height="698" alt="Image" src="https://github.com/user-attachments/assets/b5ba2262-2b7a-446d-80b3-dee652827f82" />
+Next checked from the windows 10 client machine/PC
+<img width="1018" height="606" alt="Image" src="https://github.com/user-attachments/assets/69ae3857-c7ed-4dbd-aaac-c972cf91f2f7" />
+<img width="1279" height="647" alt="Image" src="https://github.com/user-attachments/assets/915b13cb-e68a-49f0-8095-2c576cebfa92" />
 
 ---
 
