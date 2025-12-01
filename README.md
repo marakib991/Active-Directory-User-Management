@@ -174,8 +174,30 @@ Next checked from the windows 10 client machine/PC
 - Installed **RSAT: Active Directory Domain Services Tools** on Windows 10.
 - Used ADUC (Active Directory Users and Computers) to create a standard user (`user2`).
 
-📸 *Screenshot Placeholder: RSAT installation on Windows 10*  
-📸 *Screenshot Placeholder: ADUC showing user2 creation*
+#### DNS Server Address change
+Changed the **DNS Server Address** from **Server IPv4 address** to **8.8.8.8 (google DNS)** temporarily for faster downloading 
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/07a6d68d-43b3-46b0-a6c4-410a2a7cfdb2" />
+
+#### Download RSAT: Active Directory Domain Services Tools
+The tool was download from optional features of Apps & Features.
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/32e79cd6-a46f-4525-b041-ebf003b3165d" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/ee0bf6a1-2955-4da4-b91f-c671a2ce14d0" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/0e655b9c-5766-4b7e-b66b-0df6e0e52716" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/b60e1723-ea0a-4e68-8d50-37378304377b" />
+
+#### Create New Domain User from the Windows Client PC
+From **Windows Administrative Tools**, created a new domain user named **user2**.
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/e98bbacf-ea94-4291-b52a-f4e125c7bcea" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/39696b01-2d77-4726-a9e3-1924c7f5c9ad" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/e9c9e0d2-489e-49aa-92d8-a278a9aaa4d8" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/372c398a-b010-4f0c-b74e-d466e8bf01ff" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/ddd3b738-f90e-47a1-aa3f-9ec6c3891968" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/b3277852-197b-442e-b7d7-eb1138d580e7" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/91b2fd14-179e-4b32-a22e-c807fb253100" />
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/1c36d39a-4fd3-4831-977f-dd15fe409548" />
+
+#### Changed the DNS Server Address back to the server's IP address
+<img width="1686" height="1246" alt="Image" src="https://github.com/user-attachments/assets/4a913d39-0fa1-4ccf-83b9-328d0b2e05c0" />
 
 ---
 
