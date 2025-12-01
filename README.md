@@ -202,7 +202,7 @@ From **Windows Administrative Tools**, created a new domain user named **user2**
 ---
 
 ### 6. Group Policy Configuration
-#### Edited **Default Domain Policy**:
+#### Edited **Default Domain Policy**
 Default **Account Lockout Policy** was modified and the new duration was set to 30 minutes and applied the suggested **Lockout Threshold of 5 invalid attempts**.
 <img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/00bc1334-2016-4783-aaeb-f20532575619" />
 <img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/4c30b513-2cbc-4e55-9a6a-5a232a60f8b2" />
@@ -218,7 +218,7 @@ Checked if the changes applied in group policy for domain account with `net acco
 <img width="1134" height="763" alt="Image" src="https://github.com/user-attachments/assets/18920eac-e00c-4dd4-8fa5-92dfd958539b" />
 
 #### Update group policy in Windows Client PC
-As group policy changes wasn't update in the windows 10 client PC, `gpupdate /force` command was run to apply the changes and then rechecked to see if the group policy is upodated.
+As group policy changes wasn't update in the windows 10 client PC, `gpupdate /force` command was run to apply the changes and then rechecked to see if the group policy was upodated.
 <img width="898" height="906" alt="Image" src="https://github.com/user-attachments/assets/1e81103e-b4b3-4a1b-b518-12a05efd5587" />
 
 #### Generate **Group Policy Report**
@@ -231,14 +231,56 @@ As group policy changes wasn't update in the windows 10 client PC, `gpupdate /fo
 ---
 
 ### 7. Software Deployment via GPO
-- Created an OU named **Staff** and moved HELPDESK + user1 into it.
-- Shared a folder `C:\Software` with **Domain Users** permissions.
-- Added **Firefox MSI installer** to the shared folder.
-- Created and linked a GPO to deploy Firefox to the HELPDESK computer.
-- Verified installation after `gpupdate /force` and restart.
+#### Created an OU named **Staff** and moved **HELPDESK** from **Computer** container
+<img width="1694" height="601" alt="Image" src="https://github.com/user-attachments/assets/0add07bc-a66b-4522-9e1f-cd3e85ea3216" />
+<img width="1285" height="831" alt="Image" src="https://github.com/user-attachments/assets/9b1b40e1-faba-492d-aca9-553bce01a8a4" />
+<img width="1382" height="676" alt="Image" src="https://github.com/user-attachments/assets/b7ececa7-a732-4145-ab05-938966346770" />
+<img width="1590" height="709" alt="Image" src="https://github.com/user-attachments/assets/3bcf62e2-2f6b-455c-be15-1bcfe722de2e" />
+<img width="1424" height="679" alt="Image" src="https://github.com/user-attachments/assets/e1efd842-ea13-43d0-8c29-22e09e735ac3" />
+<img width="1474" height="552" alt="Image" src="https://github.com/user-attachments/assets/dcd89749-d4ef-4249-9737-796280673b35" />
 
-📸 *Screenshot Placeholder: GPO Software Installation settings (Firefox MSI)*  
-📸 *Screenshot Placeholder: Firefox installed on HELPDESK desktop*
+#### Created a new GPO called **firefox** for **Staff**
+<img width="1692" height="922" alt="Image" src="https://github.com/user-attachments/assets/58647d5e-f779-4930-8af0-48a35dbbddef" />
+<img width="1320" height="757" alt="Image" src="https://github.com/user-attachments/assets/75137549-8f21-4455-9954-249865869733" />
+<img width="1694" height="955" alt="Image" src="https://github.com/user-attachments/assets/76226ee4-6d87-47f0-8431-9ffc2d8b315d" />
+
+#### Created and shared a new folder `C:\Software` with **Domain Users** permissions
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/647fab87-966e-42bc-b3d6-8b74e9f13eba" />
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/07f89d61-a674-43ad-b21d-0811a6675bc4" />
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/32d11705-79c3-45e1-9bdc-26beded8d86f" />
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/8b5aa20b-2618-4014-874c-81f15307dee3" />
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/0ca94434-201f-4e24-9b93-afa04fe9be5e" />
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/a5d79b2e-c7a0-4887-b113-fdc796df8b84" />
+
+#### Added **Firefox MSI installer** to the shared folder
+Changed DNS server address temporarily to download the **Firefox MSI installer** and using the network path from the shared folder, nagivate to the folder from the **Windows Client PC** and paste the installation file (.msi).
+<img width="909" height="1109" alt="Image" src="https://github.com/user-attachments/assets/6aca7379-731a-4e8f-8ab6-fb14b79ee16a" />
+<img width="1694" height="581" alt="Image" src="https://github.com/user-attachments/assets/5f1f8e3b-dd57-4b2a-8ea7-bd91fd8de32a" />
+<img width="1694" height="677" alt="Image" src="https://github.com/user-attachments/assets/9da474c1-383f-4b85-8e9c-58fe7e64324c" />
+<img width="1694" height="722" alt="Image" src="https://github.com/user-attachments/assets/de58b889-c61a-4498-81b9-056a675c0c17" />
+<img width="1694" height="822" alt="Image" src="https://github.com/user-attachments/assets/ae1c7878-1002-4a42-a942-d546d0311f9f" />
+<img width="1694" height="770" alt="Image" src="https://github.com/user-attachments/assets/d7b8b4b1-ec05-4d04-a1fa-00d55e081712" />
+<img width="1367" height="505" alt="Image" src="https://github.com/user-attachments/assets/c7c326b2-ed2c-44ae-90a1-b5e85a602b44" />
+<img width="1353" height="692" alt="Image" src="https://github.com/user-attachments/assets/e3ed8c98-9e80-4243-9811-3c5c78e94815" />
+
+#### Created a new package in **Software Installation** policy to assign the **firefox installation** file
+<img width="1576" height="718" alt="Image" src="https://github.com/user-attachments/assets/22896be7-7632-46cf-94ee-20e12f996ca5" />
+<img width="1694" height="794" alt="Image" src="https://github.com/user-attachments/assets/9e138f0c-39ff-45dc-a719-4dcb41295b6e" />
+<img width="1043" height="544" alt="Image" src="https://github.com/user-attachments/assets/32a5139b-3b18-40b7-a282-0a28f573d1cb" />
+<img width="1394" height="620" alt="Image" src="https://github.com/user-attachments/assets/d595e5f1-3fc6-4528-935c-0b1be1b8048e" />
+<img width="1459" height="788" alt="Image" src="https://github.com/user-attachments/assets/70fe208a-ed7e-4e22-919f-7199af87a7ee" />
+
+#### Adding **HELPDESK** computer in **security filtering** policy
+<img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/c5ff0768-2f4c-45f3-a984-eb3492cce1c2" />
+<img width="1471" height="778" alt="Image" src="https://github.com/user-attachments/assets/de173b00-0d60-434c-a496-2facc68872ab" />
+<img width="1411" height="811" alt="Image" src="https://github.com/user-attachments/assets/7b977508-768d-4e88-a9d7-e197ec1b7193" />
+<img width="1368" height="783" alt="Image" src="https://github.com/user-attachments/assets/c4066eda-fac9-4a79-9a1c-fcdf177669ab" />
+<img width="1587" height="872" alt="Image" src="https://github.com/user-attachments/assets/cbc503b3-8a1d-4644-9f2f-29c5f89f0e8e" />
+
+#### Verified installation after `gpupdate /force` and restart
+After the update and restart of the PC, firefox application was installed automatically to the computer because of the **Group Policy for Software Installation**.
+<img width="1540" height="809" alt="Image" src="https://github.com/user-attachments/assets/a1f04a51-89c0-4ce2-90a0-451f550a0aff" />
+<img width="1109" height="688" alt="Image" src="https://github.com/user-attachments/assets/cbff3576-0f79-4860-bcbc-7db966dc66dc" />
 
 ---
 
