@@ -202,15 +202,31 @@ From **Windows Administrative Tools**, created a new domain user named **user2**
 ---
 
 ### 6. Group Policy Configuration
-- Edited **Default Domain Policy**:
-  - Account lockout duration: 30 minutes
-  - Lockout threshold: 5 invalid attempts
-- Verified changes with:
-  - `net accounts`
-  - `gpupdate /force`
-  - `gpresult /h c:\gpresult.html`
+#### Edited **Default Domain Policy**:
+Default **Account Lockout Policy** was modified and the new duration was set to 30 minutes and applied the suggested **Lockout Threshold of 5 invalid attempts**.
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/00bc1334-2016-4783-aaeb-f20532575619" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/4c30b513-2cbc-4e55-9a6a-5a232a60f8b2" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/35452f80-c396-41e6-9a12-c77a20a82475" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/3fa1f26c-7cc4-477b-9944-4eeacebc1c3d" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/03592aa2-a4df-4bad-a905-0b625d2e519a" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/99a69507-051b-4c9c-a7c2-619f1955239a" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/109daaa0-5b5b-4cb0-8627-f1f1001de336" />
 
-📸 *Screenshot Placeholder: Group Policy Management Console (Account Lockout Policy)*
+#### Verified the changes
+Checked if the changes applied in group policy for domain account with `net accounts` in Server PC and Client PC.
+<img width="1204" height="787" alt="Image" src="https://github.com/user-attachments/assets/67102525-794a-4cff-b6b5-c68af722ebbb" />
+<img width="1134" height="763" alt="Image" src="https://github.com/user-attachments/assets/18920eac-e00c-4dd4-8fa5-92dfd958539b" />
+
+#### Update group policy in Windows Client PC
+As group policy changes wasn't update in the windows 10 client PC, `gpupdate /force` command was run to apply the changes and then rechecked to see if the group policy is upodated.
+<img width="898" height="906" alt="Image" src="https://github.com/user-attachments/assets/1e81103e-b4b3-4a1b-b518-12a05efd5587" />
+
+#### Generate **Group Policy Report**
+**Group Policy** report (in html format) were generated using `gpresult /h c:\gpresult.html` command and run the **Command Prompt** as administrator. As **user1** is included in the **Domain Admins** group, **user1** has the access to group policy read.
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/fe37d3be-015b-44f4-adfc-a4d87f72dd41" />
+<img width="771" height="375" alt="Image" src="https://github.com/user-attachments/assets/3a88d09b-77da-4d84-8d1f-58ba8a08f9ff" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/0e216c31-0eed-4af4-8717-77d3cc1bc203" />
+<img width="1698" height="1244" alt="Image" src="https://github.com/user-attachments/assets/505df6eb-a9cb-4900-a8ef-24753530ee32" />
 
 ---
 
@@ -225,5 +241,4 @@ From **Windows Administrative Tools**, created a new domain user named **user2**
 📸 *Screenshot Placeholder: Firefox installed on HELPDESK desktop*
 
 ---
-
 
