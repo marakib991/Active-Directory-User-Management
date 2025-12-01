@@ -264,11 +264,12 @@ Changed DNS server address temporarily to download the **Firefox MSI installer**
 <img width="1353" height="692" alt="Image" src="https://github.com/user-attachments/assets/e3ed8c98-9e80-4243-9811-3c5c78e94815" />
 
 #### Created a new package in **Software Installation** policy to assign the **firefox installation** file
-<img width="1576" height="718" alt="Image" src="https://github.com/user-attachments/assets/22896be7-7632-46cf-94ee-20e12f996ca5" />
+
 <img width="1694" height="794" alt="Image" src="https://github.com/user-attachments/assets/9e138f0c-39ff-45dc-a719-4dcb41295b6e" />
 <img width="1043" height="544" alt="Image" src="https://github.com/user-attachments/assets/32a5139b-3b18-40b7-a282-0a28f573d1cb" />
 <img width="1394" height="620" alt="Image" src="https://github.com/user-attachments/assets/d595e5f1-3fc6-4528-935c-0b1be1b8048e" />
 <img width="1459" height="788" alt="Image" src="https://github.com/user-attachments/assets/70fe208a-ed7e-4e22-919f-7199af87a7ee" />
+<img width="1576" height="718" alt="Image" src="https://github.com/user-attachments/assets/22896be7-7632-46cf-94ee-20e12f996ca5" />
 
 #### Adding **HELPDESK** computer in **security filtering** policy
 <img width="1694" height="1240" alt="Image" src="https://github.com/user-attachments/assets/c5ff0768-2f4c-45f3-a984-eb3492cce1c2" />
